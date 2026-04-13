@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura | Fine Dining</title>
+    <meta name="description" content="Experience unparalleled culinary excellence at Aura. Reserve your table today for a journey of taste and ambiance.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">AURA</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#reservation">Reservations</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Culinary Artistry <br> <span class="highlight">Perfected</span></h1>
+            <p class="hero-subtitle">Immerse yourself in a symphony of flavors in a truly unforgettable ambiance.</p>
+            <a href="#reservation" class="cta-btn">Book a Table</a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <h2 class="section-title">Signature Selections</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <div class="menu-header">
+                        <h3>Truffle Risotto</h3>
+                        <span class="price">$36</span>
+                    </div>
+                    <p class="menu-desc">Arborio rice, wild mushrooms, aged parmesan, fresh black truffle shavings.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-header">
+                        <h3>Wagyu Beef Tenderloin</h3>
+                        <span class="price">$85</span>
+                    </div>
+                    <p class="menu-desc">Mbs 9+ wagyu, root vegetable purée, charred asparagus, red wine jus.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-header">
+                        <h3>Seared Scallops</h3>
+                        <span class="price">$28</span>
+                    </div>
+                    <p class="menu-desc">Hokkaido scallops, cauliflower silk, caviar, lemon beurre blanc.</p>
+                </div>
+                <div class="menu-card">
+                    <div class="menu-header">
+                        <h3>Dark Chocolate Sphere</h3>
+                        <span class="price">$22</span>
+                    </div>
+                    <p class="menu-desc">Valrhona chocolate, raspberry coulis, gold leaf, vanilla bean ice cream.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation">
+        <div class="container reservation-container">
+            <div class="reservation-info">
+                <h2>Join Us for an Evening</h2>
+                <p>Secure your exclusive dining experience. Spaces are limited.</p>
+            </div>
+            <form id="reservationForm" class="reservation-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="col">
+                        <label for="guests">Guests</label>
+                        <select id="guests" name="guests">
+                            <option value="1">1 Person</option>
+                            <option value="2" selected>2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5+">5+ People</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit" class="submit-btn" id="submitBtn">Confirm Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Aura Fine Dining. All rights reserved.</p>
+            <p>123 Culinary Lane, Epicurean City</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
