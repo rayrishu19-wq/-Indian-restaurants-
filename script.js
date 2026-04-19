@@ -26,7 +26,7 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Reservation form submission
+// Handle Reservation form submission
 const form = document.getElementById('reservationForm');
 const btn = document.getElementById('submitBtn');
 
