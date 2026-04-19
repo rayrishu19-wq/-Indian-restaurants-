@@ -2,7 +2,7 @@
 
 A beautifully designed, responsive single-page web application for a fine dining restaurant, built using Vanilla HTML, CSS, and internal JavaScript. This project is meant to emphasize raw web platform technologies and strong aesthetic fundamentals.
 
-## 🚀 Learning the Git Workflow
+## 🚀 Learning the Git & GitHub Workflow
 
 Since your goal is to learn the workflow and push this project to GitHub, follow these exact steps within this directory. This guide assumes you have a GitHub account and Git installed on your absolute environment.
 
