@@ -1,4 +1,4 @@
-# Premium Restaurant App - HTML/CSS/JS
+# Luxury Restaurant App - HTML/CSS/JS
 
 A beautifully designed, responsive single-page web application for a fine dining restaurant, built using Vanilla HTML, CSS, and internal JavaScript. This project is meant to emphasize raw web platform technologies and strong aesthetic fundamentals.
 
