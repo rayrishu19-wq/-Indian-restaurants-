@@ -1,4 +1,4 @@
-// Navbar scroll effect
+// Navbar scroll effect functionality
 const navbar = document.getElementById('navbar');
 
 window.addEventListener('scroll', () => {
