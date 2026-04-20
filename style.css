@@ -115,7 +115,7 @@ h1, h2, h3, .logo {
     align-items: center;
     justify-content: center;
     position: relative;
-    background-image: url('assets/hero_image.png');
+    background-image: url('assets/bihari_hero.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -244,7 +244,7 @@ h1, h2, h3, .logo {
 /* Reservation Section */
 #reservation {
     padding: 6rem 0;
-    background: url('assets/hero_image.png') center/cover no-repeat fixed;
+    background: url('assets/bihari_hero.png') center/cover no-repeat fixed;
     position: relative;
 }
 
