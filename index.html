@@ -126,16 +126,16 @@
             <form id="reservationForm" class="reservation-form">
                 <div class="form-group">
                     <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                    <input type="text" id="name" name="name" required placeholder="John Doe" aria-label="Enter your full name">
                 </div>
                 <div class="form-group row">
                     <div class="col">
                         <label for="date">Date</label>
-                        <input type="date" id="date" name="date" required>
+                        <input type="date" id="date" name="date" required aria-label="Select reservation date">
                     </div>
                     <div class="col">
                         <label for="guests">Guests</label>
-                        <select id="guests" name="guests">
+                        <select id="guests" name="guests" aria-label="Number of guests">
                             <option value="1">1 Person</option>
                             <option value="2" selected>2 People</option>
                             <option value="3">3 People</option>
