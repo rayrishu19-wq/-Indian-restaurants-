@@ -1,6 +1,11 @@
-# Premium Restaurant App - HTML/CSS/JS
+# 🍽️ Aura | Premium Fine Dining Landing Page
 
-A beautifully designed, responsive single-page web application for a fine dining restaurant, built using Vanilla HTML, CSS, and internal JavaScript. This project is meant to emphasize raw web platform technologies and strong aesthetic fundamentals.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen?style=flat-square)
+
+A beautifully designed, responsive single-page web application for a fine dining restaurant, built using Vanilla HTML, CSS, and pure JavaScript. This project emphasizes modern UI/UX trends like glassmorphism and smooth animations.
+
+## 🎯 Project Goal
+The objective of this project is to showcase professional-grade design using standard web technologies (no frameworks) while maintaining high performance and accessibility.
 
 ## 🚀 Learning the Git Workflow
 
