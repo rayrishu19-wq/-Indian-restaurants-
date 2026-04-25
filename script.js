@@ -1,6 +1,8 @@
-// Navbar scroll effect
+/**
+ * Navbar Scroll Effect
+ * Adds a background blur and shadow to the navbar when scrolling down.
+ */
 const navbar = document.getElementById('navbar');
-
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
         navbar.classList.add('scrolled');
@@ -9,7 +11,10 @@ window.addEventListener('scroll', () => {
     }
 });
 
-// Mobile menu toggle
+/**
+ * Mobile Navigation Toggle
+ * Handles the hamburger menu opening/closing on mobile devices.
+ */
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
@@ -18,7 +23,7 @@ hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-// Close mobile menu when clicking a link
+// Automatically close the mobile menu when a navigation link is clicked
 document.querySelectorAll('.nav-links a').forEach(link => {
     link.addEventListener('click', () => {
         hamburger.classList.remove('active');
@@ -26,28 +31,33 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
 });
 
-// Reservation form submission
+/**
+ * Reservation Form Handling
+ * Simulates a booking request with UI feedback.
+ */
 const form = document.getElementById('reservationForm');
 const btn = document.getElementById('submitBtn');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
     
-    // Simple state change to show interaction
+    // UI Feedback: Change button state to 'Processing'
     const originalText = btn.innerText;
     btn.innerText = 'Processing...';
     btn.style.opacity = '0.8';
     
-    // Simulate network request
+    // Simulate an API network request with a 1.5s delay
     setTimeout(() => {
         btn.innerText = 'Reservation Confirmed!';
         btn.style.background = '#28a745'; // Green success color
         btn.style.color = '#fff';
         
-        // Reset form
+        console.log('Reservation submitted successfully for:', new FormData(form).get('name'));
+        
+        // Clear the form fields
         form.reset();
         
-        // Reset button after 3 seconds
+        // Revert button to original state after 3 seconds
         setTimeout(() => {
             btn.innerText = originalText;
             btn.style.background = 'var(--primary-color)';
