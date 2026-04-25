@@ -29,6 +29,21 @@ body {
     font-family: var(--font-body);
     line-height: 1.6;
     overflow-x: hidden;
+    padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Announcement Banner */
+.announcement-banner {
+    background-color: #ffba08;
+    color: #121212;
+    text-align: center;
+    padding: 12px;
+    font-family: var(--font-body);
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    position: relative;
+    z-index: 1001;
 }
 
 /* Typography */
@@ -211,8 +226,9 @@ h1, h2, h3, .logo {
 }
 
 .menu-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-8px);
     border-color: var(--primary-color);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .menu-header {
