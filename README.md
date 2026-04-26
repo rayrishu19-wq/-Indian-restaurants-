@@ -47,7 +47,9 @@ git push -u origin main
 - **Responsive Layout:** Works beautifully on mobile, tablet, and desktop screens.
 - **Glassmorphism:** A modern UI trend used in the reservation form and navbar.
 - **Dark Theme:** High contrast, elegant dark mode for a premium "midnight dining" feel.
-- **Vanilla JS:** Smooth scrolling, responsive navigation burger menu, and fake reservation processing all built without heavy dependencies.
+- **Social Sharing:** Optimized with Open Graph and Twitter meta tags for professional social media links.
+- **Back to Top:** Smooth scrolling back-to-top button for improved navigation.
+- **Enhanced Footer:** Brand-focused footer with social media links and elegant typography.
 
 ## 🏃‍♀️ How to run locally
 No compilation step `npm install` is needed! Just open the `index.html` file in your favorite web browser or right-click `index.html` and use a VS Code extension like "Live Server".
