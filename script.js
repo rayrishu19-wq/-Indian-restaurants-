@@ -103,3 +103,6 @@ function initBackToTop() {
         });
     });
 }
+
+// End of main application logic
+
