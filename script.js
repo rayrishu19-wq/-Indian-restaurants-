@@ -1,3 +1,6 @@
+// Enable strict mode for better error catching
+'use strict';
+
 /**
  * Aura Fine Dining - Main Interaction Script
  */
