@@ -17,5 +17,6 @@ Fixes # (issue)
 - [ ] I have performed a self-review of my own code
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] I have made corresponding changes to the documentation
-- [ ] My changes generate no new warnings
+- [ ] My changes generate no new warnings or console errors
 - [ ] Any UI changes are responsive on mobile devices
+- [ ] Ensure any newly added images are compressed and placed in the `assets/` folder
