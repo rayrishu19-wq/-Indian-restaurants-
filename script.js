@@ -2,7 +2,7 @@
 'use strict';
 
 /**
- * Aura Fine Dining - Main Interaction Script
+ * Aura Premium Fine Dining - Main Interaction Script
  */
 
 document.addEventListener('DOMContentLoaded', () => {
