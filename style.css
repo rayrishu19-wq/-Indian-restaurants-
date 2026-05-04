@@ -109,6 +109,19 @@ h1, h2, h3, .logo {
     color: var(--primary-color);
 }
 
+.nav-cta {
+    background: var(--primary-color) !important;
+    color: var(--bg-color) !important;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.nav-cta:hover {
+    background: #e6c245 !important;
+    transform: translateY(-2px);
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
@@ -178,12 +191,30 @@ h1, h2, h3, .logo {
     text-transform: uppercase;
     letter-spacing: 1px;
     border-radius: 2px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.cta-btn.secondary {
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    margin-left: 1rem;
 }
 
 .cta-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
+}
+
+.cta-btn.secondary:hover {
+    background-color: var(--text-color);
+    color: var(--bg-color);
+}
+
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 /* Heritage Section */
