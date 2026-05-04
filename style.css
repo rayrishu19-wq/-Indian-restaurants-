@@ -186,6 +186,56 @@ h1, h2, h3, .logo {
     box-shadow: 0 10px 20px rgba(212, 175, 55, 0.2);
 }
 
+/* Heritage Section */
+#heritage {
+    padding: 8rem 0;
+    background-color: var(--secondary-bg);
+}
+
+.heritage-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.section-title.left {
+    text-align: left;
+}
+
+.section-title.left::after {
+    left: 0;
+    transform: none;
+}
+
+.heritage-text p {
+    margin-bottom: 1.5rem;
+    color: #ccc;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.heritage-image .image-wrapper {
+    position: relative;
+    height: 400px;
+    background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
+    border: 1px solid var(--primary-color);
+    border-radius: 4px;
+}
+
+.premium-badge {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    padding: 1rem 1.5rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    letter-spacing: 1px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
 /* Menu Section */
 #menu {
     padding: 8rem 0;
