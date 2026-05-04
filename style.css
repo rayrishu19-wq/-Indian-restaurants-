@@ -459,6 +459,57 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background: #e6c245;
 }
 
+/* Newsletter Section */
+#newsletter {
+    padding: 6rem 0;
+    background-color: var(--secondary-bg);
+    border-top: 1px solid var(--border-color);
+}
+
+.newsletter-container {
+    max-width: 800px;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.newsletter-content p {
+    color: #ccc;
+    margin-bottom: 2.5rem;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.newsletter-form input {
+    flex: 1;
+    background: rgba(0,0,0,0.3);
+}
+
+.newsletter-btn {
+    padding: 0.8rem 2rem;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter-btn:hover {
+    background: #e6c245;
+}
+
 /* Footer */
 footer {
     background: #000;
