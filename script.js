@@ -111,3 +111,5 @@ function initBackToTop() {
 
 
 
+
+const newsletterForm = document.querySelector('.newsletter-form'); if (newsletterForm) { newsletterForm.addEventListener('submit', (e) => { e.preventDefault(); const btn = newsletterForm.querySelector('.newsletter-btn'); const originalText = btn.innerText; btn.innerText = 'Subscribed!'; btn.style.background = '#28a745'; btn.style.color = '#fff'; newsletterForm.reset(); setTimeout(() => { btn.innerText = originalText; btn.style.background = 'var(--primary-color)'; btn.style.color = 'var(--bg-color)'; }, 3000); }); }
