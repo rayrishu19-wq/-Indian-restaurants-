@@ -59,4 +59,7 @@ git push -u origin main
 ## 🏃‍♀️ How to run locally
 No compilation step `npm install` is needed! Just open the `index.html` file in your favorite web browser or right-click `index.html` and use a VS Code extension like "Live Server".
 
+## 💡 Tip
+For the best experience on mobile, ensure you view the site in portrait mode.
+
 
