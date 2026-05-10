@@ -51,6 +51,11 @@ git push -u origin main
 - **Back to Top:** Smooth scrolling back-to-top button for improved navigation.
 - **Enhanced Footer:** Brand-focused footer with social media links and elegant typography.
 
+## 🔮 Future Enhancements
+- **Dynamic Menu:** Fetch menu items from a JSON file or API.
+- **Table Booking System:** Integrate with a backend for real-time table availability.
+- **Multi-language Support:** Add support for Hindi and other languages.
+
 ## 🏃‍♀️ How to run locally
 No compilation step `npm install` is needed! Just open the `index.html` file in your favorite web browser or right-click `index.html` and use a VS Code extension like "Live Server".
 
